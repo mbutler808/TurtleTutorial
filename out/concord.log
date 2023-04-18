@@ -1,0 +1,50 @@
+IQ-TREE multicore version 2.1.2 COVID-edition for Mac OS X 64-bit built Oct 22 2020
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    Marguerites-MacBook-Pro.local (AVX2, FMA3, 16 GB RAM)
+Command: iqtree2 -t out/species.treefile --gcf out/loci.treefile -s input/turtle.fa --scf 100 --prefix out/concord
+Seed:    171352 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Apr 17 14:26:09 2023
+Kernel:  AVX+FMA - 1 threads (16 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 16 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file input/turtle.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 16 sequences with 20820 columns, 8574 distinct patterns
+6084 parsimony-informative, 3551 singleton sites, 11185 constant sites
+                   Gap/Ambiguity  Composition  p-value
+   1  protopterus         67.26%    failed      0.00%
+   2  Anolis               1.61%    passed     48.30%
+   3  Gallus               0.01%    passed     11.30%
+   4  Homo                 0.29%    passed     68.82%
+   5  Monodelphis          0.46%    failed      0.21%
+   6  Ornithorhynchus      3.73%    failed      0.00%
+   7  Taeniopygia          2.10%    failed      0.00%
+   8  Xenopus              1.50%    passed     27.31%
+   9  alligator           80.50%    passed     19.63%
+  10  emys_orbicularis    56.95%    passed     71.94%
+  11  phrynops            36.77%    passed     17.20%
+  12  caiman              41.06%    passed      5.16%
+  13  caretta             36.33%    passed      6.75%
+  14  python              65.18%    failed      0.00%
+  15  chelonoidis_nigra   68.53%    failed      0.77%
+  16  podarcis            76.21%    failed      0.14%
+WARNING: 6 sequences contain more than 50% gaps/ambiguity
+****  TOTAL               33.66%  7 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading tree out/species.treefile ...
+un-rooted tree with 16 taxa and 29 branches
+Reading tree(s) file out/loci.treefile ...
+29 tree(s) loaded (0 rooted and 29 unrooted)
+Trees have different number of taxa
+Computing gene concordance factor...
+0.001 sec
+Computing site concordance factor...
+0.073 sec
+Tree with concordance factors written to out/concord.cf.tree
+Annotated tree (best viewed in FigTree) written to out/concord.cf.tree.nex
+Tree with branch IDs written to out/concord.cf.branch
+Concordance factors per branch printed to out/concord.cf.stat
+Date and Time: Mon Apr 17 14:26:09 2023

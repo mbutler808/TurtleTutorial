@@ -1,0 +1,270 @@
+IQ-TREE multicore version 2.1.2 COVID-edition for Mac OS X 64-bit built Oct 22 2020
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    Marguerites-MacBook-Pro.local (AVX2, FMA3, 16 GB RAM)
+Command: iqtree2 -s input/turtle.fa -S input/turtle.nex -m TEST --prefix out/loci -B 1000
+Seed:    273259 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Apr 17 14:25:14 2023
+Kernel:  AVX+FMA - 1 threads (16 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 16 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading partition model file input/turtle.nex ...
+Reading alignment file input/turtle.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 16 sequences with 20820 columns, 8574 distinct patterns
+6084 parsimony-informative, 3551 singleton sites, 11185 constant sites
+                   Gap/Ambiguity  Composition  p-value
+   1  protopterus         67.26%    failed      0.00%
+   2  Anolis               1.61%    passed     48.30%
+   3  Gallus               0.01%    passed     11.30%
+   4  Homo                 0.29%    passed     68.82%
+   5  Monodelphis          0.46%    failed      0.21%
+   6  Ornithorhynchus      3.73%    failed      0.00%
+   7  Taeniopygia          2.10%    failed      0.00%
+   8  Xenopus              1.50%    passed     27.31%
+   9  alligator           80.50%    passed     19.63%
+  10  emys_orbicularis    56.95%    passed     71.94%
+  11  phrynops            36.77%    passed     17.20%
+  12  caiman              41.06%    passed      5.16%
+  13  caretta             36.33%    passed      6.75%
+  14  python              65.18%    failed      0.00%
+  15  chelonoidis_nigra   68.53%    failed      0.77%
+  16  podarcis            76.21%    failed      0.14%
+WARNING: 6 sequences contain more than 50% gaps/ambiguity
+****  TOTAL               33.66%  7 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: No CharPartition defined, use all CharSets
+
+Loading 29 partitions...
+Subset	Type	Seqs	Sites	Infor	Invar	Model	Name
+1		11	846	282	382	TEST	ENSGALG00000000223.macse_DNA_gb
+2		10	522	193	227	TEST	ENSGALG00000001529.macse_DNA_gb
+3		10	672	194	351	TEST	ENSGALG00000002002.macse_DNA_gb
+4		14	732	222	422	TEST	ENSGALG00000002514.macse_DNA_gb
+5		15	966	313	556	TEST	ENSGALG00000003337.macse_DNA_gb
+6		14	885	257	525	TEST	ENSGALG00000003700.macse_DNA_gb
+7		10	1545	359	833	TEST	ENSGALG00000003702.macse_DNA_gb
+8		12	480	176	225	TEST	ENSGALG00000003907.macse_DNA_gb
+9		12	576	176	318	TEST	ENSGALG00000005820.macse_DNA_gb
+10		15	696	129	483	TEST	ENSGALG00000005834.macse_DNA_gb
+11		13	570	124	334	TEST	ENSGALG00000005902.macse_DNA_gb
+12		12	792	283	334	TEST	ENSGALG00000008338.macse_DNA_gb
+13		11	540	129	329	TEST	ENSGALG00000008517.macse_DNA_gb
+14		12	546	231	262	TEST	ENSGALG00000008916.macse_DNA_gb
+15		11	930	243	547	TEST	ENSGALG00000009085.macse_DNA_gb
+16		13	597	239	261	TEST	ENSGALG00000009879.macse_DNA_gb
+17		9	900	290	406	TEST	ENSGALG00000011323.macse_DNA_gb
+18		10	447	201	211	TEST	ENSGALG00000011434.macse_DNA_gb
+19		12	981	172	659	TEST	ENSGALG00000011917.macse_DNA_gb
+20		10	468	169	191	TEST	ENSGALG00000011966.macse_DNA_gb
+21		13	753	233	387	TEST	ENSGALG00000012244.macse_DNA_gb
+22		13	519	149	292	TEST	ENSGALG00000012379.macse_DNA_gb
+23		9	630	158	382	TEST	ENSGALG00000012568.macse_DNA_gb
+24		10	1302	279	815	TEST	ENSGALG00000013227.macse_DNA_gb
+25		11	561	176	297	TEST	ENSGALG00000014038.macse_DNA_gb
+26		9	498	96	314	TEST	ENSGALG00000014648.macse_DNA_gb
+27		10	597	187	238	TEST	ENSGALG00000015326.macse_DNA_gb
+28		12	594	175	281	TEST	ENSGALG00000015397.macse_DNA_gb
+29		13	675	249	323	TEST	ENSGALG00000016241.macse_DNA_gb
+Linked 16 total sequences
+
+Creating fast initial parsimony tree by random order stepwise addition...
+0.008 seconds, parsimony score: 20904 (based on 9635 sites)
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Log-likelihood: -113774.938
+Time for fast ML tree search: 1.494 seconds
+
+NOTE: ModelFinder requires 2 MB RAM!
+Selecting individual models for 29 charsets using BIC...
+ No. Model        Score       TreeLen     Charset
+   1 K2P+G4       10204.418   2.144       ENSGALG00000000223.macse_DNA_gb
+   2 K2P+G4       6903.858    1.925       ENSGALG00000001529.macse_DNA_gb
+   3 TN+F+G4      7308.907    1.778       ENSGALG00000002002.macse_DNA_gb
+   4 TVM+F+I+G4   8750.586    1.932       ENSGALG00000002514.macse_DNA_gb
+   5 TIM2e+I+G4   12557.625   2.159       ENSGALG00000003337.macse_DNA_gb
+   6 TIM2+F+G4    9605.819    1.600       ENSGALG00000003700.macse_DNA_gb
+   7 TN+F+G4      15263.494   1.400       ENSGALG00000003702.macse_DNA_gb
+   8 K2P+G4       5985.563    1.895       ENSGALG00000003907.macse_DNA_gb
+   9 TNe+I        6352.959    1.559       ENSGALG00000005820.macse_DNA_gb
+  10 TIM2+F+G4    6246.265    0.939       ENSGALG00000005834.macse_DNA_gb	0h:0m:4s (0h:0m:8s left)
+  11 TNe+G4       5725.597    1.543       ENSGALG00000005902.macse_DNA_gb	0h:0m:4s (0h:0m:7s left)
+  12 TIM3e+G4     10363.564   2.128       ENSGALG00000008338.macse_DNA_gb	0h:0m:5s (0h:0m:7s left)
+  13 TPM2+F+G4    5517.463    1.330       ENSGALG00000008517.macse_DNA_gb	0h:0m:5s (0h:0m:6s left)
+  14 TIM2+F+I+G4  6882.661    2.109       ENSGALG00000008916.macse_DNA_gb	0h:0m:5s (0h:0m:6s left)
+  15 TN+F+I+G4    9228.495    1.734       ENSGALG00000009085.macse_DNA_gb	0h:0m:6s (0h:0m:5s left)
+  16 TN+F+G4      8486.519    2.256       ENSGALG00000009879.macse_DNA_gb	0h:0m:6s (0h:0m:5s left)
+  17 TPM3+F+G4    10592.298   1.825       ENSGALG00000011323.macse_DNA_gb	0h:0m:7s (0h:0m:4s left)
+  18 K2P+I+G4     5899.630    2.074       ENSGALG00000011434.macse_DNA_gb	0h:0m:7s (0h:0m:4s left)
+  19 TIM2e+G4     8214.216    0.918       ENSGALG00000011917.macse_DNA_gb	0h:0m:7s (0h:0m:3s left)
+  20 K2P+G4       6011.963    2.298       ENSGALG00000011966.macse_DNA_gb	0h:0m:7s (0h:0m:3s left)
+  21 SYM+G4       8866.518    1.888       ENSGALG00000012244.macse_DNA_gb	0h:0m:7s (0h:0m:3s left)
+  22 K2P+G4       5856.587    1.676       ENSGALG00000012379.macse_DNA_gb	0h:0m:8s (0h:0m:2s left)
+  23 TIM3e+G4     5894.266    1.073       ENSGALG00000012568.macse_DNA_gb	0h:0m:8s (0h:0m:2s left)
+  24 TPM2+F+G4    11279.089   1.084       ENSGALG00000013227.macse_DNA_gb	0h:0m:8s (0h:0m:1s left)
+  25 TN+F+G4      6702.519    1.791       ENSGALG00000014038.macse_DNA_gb	0h:0m:9s (0h:0m:1s left)
+  26 TN+F+G4      4280.200    0.923       ENSGALG00000014648.macse_DNA_gb	0h:0m:9s (0h:0m:1s left)
+  27 TIM+F+G4     7436.913    1.908       ENSGALG00000015326.macse_DNA_gb	0h:0m:9s (0h:0m:0s left)
+  28 TIM2+F+G4    7300.158    1.777       ENSGALG00000015397.macse_DNA_gb	0h:0m:9s (0h:0m:0s left)
+  29 TPM2+F+I+G4  8929.909    2.178       ENSGALG00000016241.macse_DNA_gb	0h:0m:10s (0h:0m:0s left)
+Full partition model BIC score: 235148.136 (LnL: -113924.741  df:734)
+Partition information was printed to out/loci.best_scheme.nex
+Partition information in Raxml format was printed to out/loci.best_scheme
+
+All model information printed to out/loci.model.gz
+CPU time for ModelFinder: 11.781 seconds (0h:0m:11s)
+Wall-clock time for ModelFinder: 11.810 seconds (0h:0m:11s)
+Generating 1000 samples for ultrafast bootstrap (seed: 273259)...
+
+NOTE: 47 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Partition ENSGALG00000003337.macse_DNA_gb / Model: TIM2e+I+G4 / df: 32 / LogL: -6168.751
+Partition ENSGALG00000003702.macse_DNA_gb / Model: TN+F+G4 / df: 23 / LogL: -7547.305
+Partition ENSGALG00000008338.macse_DNA_gb / Model: TIM3e+G4 / df: 25 / LogL: -5098.349
+Partition ENSGALG00000003700.macse_DNA_gb / Model: TIM2+F+G4 / df: 32 / LogL: -4694.340
+Partition ENSGALG00000000223.macse_DNA_gb / Model: K2P+G4 / df: 21 / LogL: -5031.433
+Partition ENSGALG00000002514.macse_DNA_gb / Model: TVM+F+I+G4 / df: 34 / LogL: -4262.435
+Partition ENSGALG00000016241.macse_DNA_gb / Model: TPM2+F+I+G4 / df: 30 / LogL: -4367.195
+Partition ENSGALG00000009879.macse_DNA_gb / Model: TN+F+G4 / df: 29 / LogL: -4150.576
+Partition ENSGALG00000012244.macse_DNA_gb / Model: SYM+G4 / df: 29 / LogL: -4337.199
+Partition ENSGALG00000013227.macse_DNA_gb / Model: TPM2+F+G4 / df: 23 / LogL: -5557.070
+Partition ENSGALG00000009085.macse_DNA_gb / Model: TN+F+I+G4 / df: 26 / LogL: -4524.898
+Partition ENSGALG00000011323.macse_DNA_gb / Model: TPM3+F+G4 / df: 21 / LogL: -5224.724
+Partition ENSGALG00000005834.macse_DNA_gb / Model: TIM2+F+G4 / df: 34 / LogL: -3011.861
+Partition ENSGALG00000015397.macse_DNA_gb / Model: TIM2+F+G4 / df: 28 / LogL: -3560.662
+Partition ENSGALG00000011917.macse_DNA_gb / Model: TIM2e+G4 / df: 25 / LogL: -4021.000
+Partition ENSGALG00000003907.macse_DNA_gb / Model: K2P+G4 / df: 23 / LogL: -2921.783
+Partition ENSGALG00000005820.macse_DNA_gb / Model: TNe+I / df: 24 / LogL: -3100.206
+Partition ENSGALG00000008916.macse_DNA_gb / Model: TIM2+F+I+G4 / df: 29 / LogL: -3349.927
+Partition ENSGALG00000012379.macse_DNA_gb / Model: K2P+G4 / df: 25 / LogL: -2850.143
+Partition ENSGALG00000015326.macse_DNA_gb / Model: TIM+F+G4 / df: 24 / LogL: -3641.753
+Partition ENSGALG00000001529.macse_DNA_gb / Model: K2P+G4 / df: 19 / LogL: -3392.481
+Partition ENSGALG00000014038.macse_DNA_gb / Model: TN+F+G4 / df: 25 / LogL: -3272.138
+Partition ENSGALG00000002002.macse_DNA_gb / Model: TN+F+G4 / df: 23 / LogL: -3579.585
+Partition ENSGALG00000005902.macse_DNA_gb / Model: TNe+G4 / df: 26 / LogL: -2780.305
+Partition ENSGALG00000011434.macse_DNA_gb / Model: K2P+I+G4 / df: 20 / LogL: -2888.782
+Partition ENSGALG00000011966.macse_DNA_gb / Model: K2P+G4 / df: 19 / LogL: -2947.571
+Partition ENSGALG00000008517.macse_DNA_gb / Model: TPM2+F+G4 / df: 25 / LogL: -2680.087
+Partition ENSGALG00000012568.macse_DNA_gb / Model: TIM3e+G4 / df: 19 / LogL: -2885.898
+Partition ENSGALG00000014648.macse_DNA_gb / Model: TN+F+G4 / df: 21 / LogL: -2074.889
+Optimal log-likelihood: -113923.344
+--------------------------------------------------------------------
+|                SEPARATE TREE SEARCH FOR PARTITIONS               |
+--------------------------------------------------------------------
+Partition ENSGALG00000003337.macse_DNA_gb / Iterations: 200 / LogL: -6164.81 / Time: 0h:0m:9s
+Partition ENSGALG00000003702.macse_DNA_gb / Iterations: 104 / LogL: -7547.21 / Time: 0h:0m:11s
+Partition ENSGALG00000008338.macse_DNA_gb / Iterations: 102 / LogL: -5098.35 / Time: 0h:0m:12s
+Partition ENSGALG00000003700.macse_DNA_gb / Iterations: 108 / LogL: -4694.16 / Time: 0h:0m:14s
+Partition ENSGALG00000000223.macse_DNA_gb / Iterations: 102 / LogL: -5031.43 / Time: 0h:0m:16s
+Partition ENSGALG00000002514.macse_DNA_gb / Iterations: 102 / LogL: -4262.38 / Time: 0h:0m:17s
+Partition ENSGALG00000016241.macse_DNA_gb / Iterations: 102 / LogL: -4364.52 / Time: 0h:0m:18s
+Partition ENSGALG00000009879.macse_DNA_gb / Iterations: 102 / LogL: -4150.58 / Time: 0h:0m:20s
+Partition ENSGALG00000012244.macse_DNA_gb / Iterations: 102 / LogL: -4328.56 / Time: 0h:0m:22s
+Partition ENSGALG00000013227.macse_DNA_gb / Iterations: 102 / LogL: -5557.07 / Time: 0h:0m:23s
+Partition ENSGALG00000009085.macse_DNA_gb / Iterations: 200 / LogL: -4518.66 / Time: 0h:0m:25s
+Partition ENSGALG00000011323.macse_DNA_gb / Iterations: 102 / LogL: -5224.72 / Time: 0h:0m:26s
+Partition ENSGALG00000005834.macse_DNA_gb / Iterations: 104 / LogL: -3011.51 / Time: 0h:0m:27s
+Partition ENSGALG00000015397.macse_DNA_gb / Iterations: 102 / LogL: -3560.66 / Time: 0h:0m:28s
+Partition ENSGALG00000011917.macse_DNA_gb / Iterations: 102 / LogL: -4021 / Time: 0h:0m:29s
+Partition ENSGALG00000003907.macse_DNA_gb / Iterations: 115 / LogL: -2918.06 / Time: 0h:0m:31s
+Partition ENSGALG00000005820.macse_DNA_gb / Iterations: 200 / LogL: -3096.49 / Time: 0h:0m:32s
+Partition ENSGALG00000008916.macse_DNA_gb / Iterations: 102 / LogL: -3349.92 / Time: 0h:0m:33s
+Partition ENSGALG00000012379.macse_DNA_gb / Iterations: 102 / LogL: -2849.5 / Time: 0h:0m:34s
+Partition ENSGALG00000015326.macse_DNA_gb / Iterations: 102 / LogL: -3640.96 / Time: 0h:0m:35s
+Partition ENSGALG00000001529.macse_DNA_gb / Iterations: 102 / LogL: -3392.48 / Time: 0h:0m:36s
+Partition ENSGALG00000014038.macse_DNA_gb / Iterations: 102 / LogL: -3272.14 / Time: 0h:0m:36s
+Partition ENSGALG00000002002.macse_DNA_gb / Iterations: 102 / LogL: -3576.6 / Time: 0h:0m:37s
+Partition ENSGALG00000005902.macse_DNA_gb / Iterations: 103 / LogL: -2779.58 / Time: 0h:0m:38s
+Partition ENSGALG00000011434.macse_DNA_gb / Iterations: 102 / LogL: -2875.9 / Time: 0h:0m:39s
+Partition ENSGALG00000011966.macse_DNA_gb / Iterations: 105 / LogL: -2946.13 / Time: 0h:0m:40s
+Partition ENSGALG00000008517.macse_DNA_gb / Iterations: 102 / LogL: -2679.87 / Time: 0h:0m:40s
+Partition ENSGALG00000012568.macse_DNA_gb / Iterations: 102 / LogL: -2885.9 / Time: 0h:0m:41s
+Partition ENSGALG00000014648.macse_DNA_gb / Iterations: 102 / LogL: -2074.89 / Time: 0h:0m:42s
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+Partition ENSGALG00000003337.macse_DNA_gb / Model: TIM2e+I+G4 / df: 32 / LogL: -6164.760
+Partition ENSGALG00000003702.macse_DNA_gb / Model: TN+F+G4 / df: 23 / LogL: -7547.205
+Partition ENSGALG00000008338.macse_DNA_gb / Model: TIM3e+G4 / df: 25 / LogL: -5098.349
+Partition ENSGALG00000003700.macse_DNA_gb / Model: TIM2+F+G4 / df: 32 / LogL: -4694.160
+Partition ENSGALG00000000223.macse_DNA_gb / Model: K2P+G4 / df: 21 / LogL: -5031.433
+Partition ENSGALG00000002514.macse_DNA_gb / Model: TVM+F+I+G4 / df: 34 / LogL: -4262.351
+Partition ENSGALG00000016241.macse_DNA_gb / Model: TPM2+F+I+G4 / df: 30 / LogL: -4364.515
+Partition ENSGALG00000009879.macse_DNA_gb / Model: TN+F+G4 / df: 29 / LogL: -4150.576
+Partition ENSGALG00000012244.macse_DNA_gb / Model: SYM+G4 / df: 29 / LogL: -4328.562
+Partition ENSGALG00000013227.macse_DNA_gb / Model: TPM2+F+G4 / df: 23 / LogL: -5557.069
+Partition ENSGALG00000009085.macse_DNA_gb / Model: TN+F+I+G4 / df: 26 / LogL: -4518.660
+Partition ENSGALG00000011323.macse_DNA_gb / Model: TPM3+F+G4 / df: 21 / LogL: -5224.724
+Partition ENSGALG00000005834.macse_DNA_gb / Model: TIM2+F+G4 / df: 34 / LogL: -3011.507
+Partition ENSGALG00000015397.macse_DNA_gb / Model: TIM2+F+G4 / df: 28 / LogL: -3560.662
+Partition ENSGALG00000011917.macse_DNA_gb / Model: TIM2e+G4 / df: 25 / LogL: -4021.000
+Partition ENSGALG00000003907.macse_DNA_gb / Model: K2P+G4 / df: 23 / LogL: -2918.062
+Partition ENSGALG00000005820.macse_DNA_gb / Model: TNe+I / df: 24 / LogL: -3096.487
+Partition ENSGALG00000008916.macse_DNA_gb / Model: TIM2+F+I+G4 / df: 29 / LogL: -3349.924
+Partition ENSGALG00000012379.macse_DNA_gb / Model: K2P+G4 / df: 25 / LogL: -2849.497
+Partition ENSGALG00000015326.macse_DNA_gb / Model: TIM+F+G4 / df: 24 / LogL: -3640.956
+Partition ENSGALG00000001529.macse_DNA_gb / Model: K2P+G4 / df: 19 / LogL: -3392.481
+Partition ENSGALG00000014038.macse_DNA_gb / Model: TN+F+G4 / df: 25 / LogL: -3272.138
+Partition ENSGALG00000002002.macse_DNA_gb / Model: TN+F+G4 / df: 23 / LogL: -3576.604
+Partition ENSGALG00000005902.macse_DNA_gb / Model: TNe+G4 / df: 26 / LogL: -2779.576
+Partition ENSGALG00000011434.macse_DNA_gb / Model: K2P+I+G4 / df: 20 / LogL: -2875.886
+Partition ENSGALG00000011966.macse_DNA_gb / Model: K2P+G4 / df: 19 / LogL: -2946.131
+Partition ENSGALG00000008517.macse_DNA_gb / Model: TPM2+F+G4 / df: 25 / LogL: -2679.874
+Partition ENSGALG00000012568.macse_DNA_gb / Model: TIM3e+G4 / df: 19 / LogL: -2885.898
+Partition ENSGALG00000014648.macse_DNA_gb / Model: TN+F+G4 / df: 21 / LogL: -2074.889
+Optimal log-likelihood: -113873.936
+Partition information was printed to out/loci.best_model.nex
+BEST SCORE FOUND : -113873.936
+Creating bootstrap support values...
+Total tree length: 49.731
+
+Total number of iterations: 0
+CPU time used for tree search: 36.812 sec (0h:0m:36s)
+Wall-clock time used for tree search: 36.972 sec (0h:0m:36s)
+Total CPU time used: 42.725 sec (0h:0m:42s)
+Total wall-clock time used: 42.926 sec (0h:0m:42s)
+
+Analysis results written to: 
+  IQ-TREE report:                out/loci.iqtree
+  Maximum-likelihood tree:       out/loci.treefile
+  Best partitioning scheme:      out/loci.best_scheme.nex
+           in RAxML format:      out/loci.best_scheme
+
+Ultrafast bootstrap approximation results written to:
+  Screen log file:               out/loci.log
+
+Date and Time: Mon Apr 17 14:26:09 2023

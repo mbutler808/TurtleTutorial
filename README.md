@@ -22,7 +22,7 @@ This repository contains code and files to accompany the lecture:
 
 1.  In Terminal (MacOS) or git-bash (Windows), navigate to the TurtleTutorial folder
 2.  execute the shell script by typing `./iqtreerun.sh` 
-    If that fails try `bash iqtreerun.sh`, or look up the error message
+    If that fails try `bash iqtreerun.sh`, or look up the error message  
     Read the notes in the shell script
 3.  Explore the output in R with the `concordance.R` script
 4.  Visualize trees either in R (see script), or with a treeviewer such as FigTree

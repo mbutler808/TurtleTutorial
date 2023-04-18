@@ -28,5 +28,5 @@ This repository contains code and files to accompany the lecture:
 4.  Visualize trees either in R (see script), or with a treeviewer such as FigTree
 5.  Refer to the lecture for explanations 
 
-__input__: folder with input files
+__input__: folder with input files  
 __out__: folder for IQTREE output (out is created by iqtreerun.sh)
